@@ -1,9 +1,15 @@
 package decoratorjava;
 
+/**
+ * Interfaz base para las bebidas.
+ */
 interface BaseDrink {
     double getPrice();
 }
 
+/**
+ * Implementación de café House Blen.
+ */
 class HouseBlen implements BaseDrink {
 
     private double price = 1.5;
@@ -15,6 +21,9 @@ class HouseBlen implements BaseDrink {
     } 
 }
 
+/**
+ * Implementación de café Dark Roast.
+ */
 class DarkRoast implements BaseDrink {
 
     private double price = 1.0;
@@ -26,6 +35,9 @@ class DarkRoast implements BaseDrink {
     }
 }
 
+/**
+ * Implementación de café Espresso.
+ */
 class Espresso implements BaseDrink {
 
     private double price = 1.5;
@@ -37,6 +49,9 @@ class Espresso implements BaseDrink {
     }
 }
 
+/**
+ * Implementación de café Decafeinado.
+ */
 class Decaf implements BaseDrink {
 
     private double price = 2.0;

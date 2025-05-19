@@ -1,5 +1,8 @@
 package decoratorjava;
 
+/**
+ * Clase base para los condimentos.
+ */
 class CondimentDecorator implements BaseDrink {
     protected BaseDrink baseDrink;
     protected double condimentPrice;
@@ -14,6 +17,9 @@ class CondimentDecorator implements BaseDrink {
     }
 }
 
+/**
+ * Clase heredada para agregar leche entera.
+ */
 class WholeMilkDecorator extends CondimentDecorator {
 
     public WholeMilkDecorator(BaseDrink baseDrink) {
@@ -29,6 +35,9 @@ class WholeMilkDecorator extends CondimentDecorator {
     }
 } 
 
+/**
+ * Clase heredada para agregar leche deslactosada.
+ */
 class LactoseFreeMilkDecorator extends CondimentDecorator {
     
     public LactoseFreeMilkDecorator(BaseDrink baseDrink) {
@@ -44,6 +53,9 @@ class LactoseFreeMilkDecorator extends CondimentDecorator {
     }
 }
 
+/**
+ * Clase heredada para agregar leche light.
+ */
 class LightMilkDecorator extends CondimentDecorator {
 
     public LightMilkDecorator(BaseDrink baseDrink) {
@@ -59,6 +71,9 @@ class LightMilkDecorator extends CondimentDecorator {
     }
 }
 
+/**
+ * Clase heredada para agregar leche deslactosada light.
+ */
 class LactoseFreeLightMilkDecorator extends CondimentDecorator {
 
     public LactoseFreeLightMilkDecorator(BaseDrink baseDrink) {
@@ -74,6 +89,9 @@ class LactoseFreeLightMilkDecorator extends CondimentDecorator {
     }
 }
 
+/**
+ * Clase heredada para agregar mocha.
+ */
 class MochaDecorator extends CondimentDecorator {
     public MochaDecorator(BaseDrink baseDrink) {
         super(baseDrink);
@@ -88,6 +106,9 @@ class MochaDecorator extends CondimentDecorator {
     }
 }
 
+/**
+ * Clase heredada para agregar leche de soya.
+ */
 class SoyMilkDecorator extends CondimentDecorator {
     public SoyMilkDecorator(BaseDrink baseDrink) {
         super(baseDrink);
@@ -102,6 +123,9 @@ class SoyMilkDecorator extends CondimentDecorator {
     }
 }
 
+/**
+ * Clase heredada para agregar crema.
+ */
 class CreamDecorator extends CondimentDecorator {
 
     public CreamDecorator(BaseDrink baseDrink) {
