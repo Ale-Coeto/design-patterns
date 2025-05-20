@@ -12,3 +12,6 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 
 ### Decorator
 Attach additional responsibilities or behaviors to an object dynamically.
+
+### Facade
+Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
