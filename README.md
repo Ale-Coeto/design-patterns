@@ -7,6 +7,7 @@ Ensure a class has only one instance and provide a global point of access to it.
 ### Prototype
 Allows copying existing objects without making your code dependent on their classes.
 
+
 ## Structural
 Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
 
