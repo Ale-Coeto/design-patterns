@@ -18,3 +18,10 @@ Provide a unified interface to a set of interfaces in a subsystem. Facade define
 
 ### Flyweight
 Lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
+
+### Proxy
+Provides a placeholder/surrogate for another object to control access to it.
+Virtual proxy: placeholder for resource-heavy objects. Real object is created only when it is needed.
+Remote proxy: represents an object that is in a different address space. It is used to communicate with the remote object.
+Protective proxy: controls access to the real object. It can add security, logging, or other functionality before delegating the call to the real object.
+Smart proxy: adds additional functionality to the real object, such as caching or lazy loading. It can also be used to manage the lifecycle of the real object.
