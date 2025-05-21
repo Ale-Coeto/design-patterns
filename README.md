@@ -15,3 +15,6 @@ Attach additional responsibilities or behaviors to an object dynamically.
 
 ### Facade
 Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+
+### Flyweight
+Lets you fit more objects into the available amount of RAM by sharing common parts of state between multiple objects instead of keeping all of the data in each object.
