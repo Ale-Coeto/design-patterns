@@ -1,5 +1,12 @@
 # Design Patterns
 
+## Creational
+### Singleton
+Ensure a class has only one instance and provide a global point of access to it.
+
+### Prototype
+Allows copying existing objects without making your code dependent on their classes.
+
 ## Structural
 Structural design patterns explain how to assemble objects and classes into larger structures, while keeping these structures flexible and efficient.
 
@@ -9,6 +16,9 @@ Convert the interface of a class into another interface clients expect. Adapter 
 ### Bridge
 Lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 Decouple an abstraction from its implementation so that the two can vary independently.
+
+### Composite
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 
 ### Decorator
 Attach additional responsibilities or behaviors to an object dynamically.
