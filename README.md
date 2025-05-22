@@ -1,11 +1,21 @@
 # Design Patterns
 
 ## Creational
+### Abstract Factory
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+
+### Builder
+Lets you construct complex objects step by step. Also allows to create pre-configured objects through a director.
+
+### Factory Method
+Define an interface for creating an object, but let subclasses alter the type of objects that will be created.
+
 ### Singleton
 Ensure a class has only one instance and provide a global point of access to it.
 
 ### Prototype
 Allows copying existing objects without making your code dependent on their classes.
+
 
 
 ## Structural
